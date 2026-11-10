@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="copy_0">AgroRiego</string>
+    <string name="copy_1">CUIDADO INTELIGENTE</string>
+    <string name="copy_2">Tus plantas,
+más cerca.</string>
+    <string name="copy_3">Monitorea tu invernadero y gestiona el riego desde un solo lugar.</string>
+    <string name="copy_4">Correo electrónico</string>
+    <string name="copy_5">tu@correo.cl</string>
+    <string name="copy_6">Contraseña</string>
+    <string name="copy_7">Tu contraseña</string>
+    <string name="copy_8">Iniciar sesión</string>
+    <string name="copy_9">Crear una cuenta</string>
+    <string name="copy_10">Explorar demostración</string>
+    <string name="copy_11">Ingreso con correo y contraseña. También puedes explorar una vista de ejemplo sin crear una cuenta.</string>
+    <string name="copy_12">Volver al inicio</string>
+    <string name="copy_13">Crear cuenta</string>
+    <string name="copy_14">Un espacio para
+cuidar tus plantas.</string>
+    <string name="copy_15">Crea tu acceso con un correo que puedas verificar.</string>
+    <string name="copy_16">Correo electrónico</string>
+    <string name="copy_17">tu@correo.cl</string>
+    <string name="copy_18">Contraseña</string>
+    <string name="copy_19">8 caracteres o más</string>
+    <string name="copy_20">Confirmar contraseña</string>
+    <string name="copy_21">Repite tu contraseña</string>
+    <string name="copy_22">Crear cuenta</string>
+    <string name="copy_23">Tu cuenta en AgroRiego</string>
+    <string name="copy_24">Usaremos tu correo para iniciar sesión, verificar tu cuenta y recuperar tu contraseña. No solicitamos RUT ni teléfono.</string>
+    <string name="copy_25">AgroRiego</string>
+    <string name="copy_26">MI INVERNADERO</string>
+    <string name="copy_27">Cuenta y privacidad</string>
+    <string name="copy_28">MODO DEMOSTRACIÓN</string>
+    <string name="copy_29">Mi invernadero</string>
+    <string name="copy_30">Así se verán tus lecturas y controles.</string>
+    <string name="copy_31">ESP32 sin conectar</string>
+    <string name="copy_32">Datos de ejemplo</string>
+    <string name="copy_33">Ambiente</string>
+    <string name="copy_34">LECTURAS SIMULADAS</string>
+    <string name="copy_35">Temperatura</string>
+    <string name="copy_36">26 °C</string>
+    <string name="copy_37">Bajo el umbral de calor</string>
+    <string name="copy_38">Humedad del aire</string>
+    <string name="copy_39">62 %</string>
+    <string name="copy_40">Referencia ambiental</string>
+    <string name="copy_41">Humedad de la tierra</string>
+    <string name="copy_42">48 %</string>
+    <string name="copy_43">Humedad suficiente · riego en espera</string>
+    <string name="copy_44">Control de riego</string>
+    <string name="copy_45">Automático</string>
+    <string name="copy_46">Manual</string>
+    <string name="copy_47">En esta demo, el riego inicia bajo 35 % y se detiene al llegar a 55 %.</string>
+    <string name="copy_48">Riego en espera</string>
+    <string name="copy_49">Control de ejemplo · sin envío a la ESP32</string>
+    <string name="copy_50">Controlado por el modo automático</string>
+    <string name="copy_51">Avisos</string>
+    <string name="copy_52">Condiciones dentro de los umbrales</string>
+    <string name="copy_53">No hay alertas en este ejemplo. Los valores deben ajustarse a la planta que elijas.</string>
+    <string name="copy_54">Cambiar datos de ejemplo</string>
+    <string name="copy_55">Ejemplo 1 de 3 · condiciones estables</string>
+    <string name="copy_56">Volver al inicio</string>
+    <string name="copy_57">Prototipo de interfaz · AWS aún no conectado</string>
+    <string name="app_name">AgroRiego IoT</string>
+</resources>

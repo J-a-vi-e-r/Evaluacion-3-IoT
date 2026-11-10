@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="canvas">#F4F7F3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="forest">#183F32</color>
+    <color name="green">#27694D</color>
+    <color name="sage">#E6EFE5</color>
+    <color name="ink">#18372B</color>
+    <color name="muted">#627369</color>
+    <color name="line">#DAE3D8</color>
+    <color name="mint">#B8D995</color>
+    <color name="amber">#8A5108</color>
+    <color name="amber_bg">#FFF1D6</color>
+    <color name="blue">#245C85</color>
+    <color name="blue_bg">#EAF3F9</color>
+    <color name="disabled">#718477</color>
+</resources>

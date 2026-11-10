@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="@color/canvas">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:clipToPadding="false" android:scrollbars="none">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <ImageView android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/ic_leaf" android:importantForAccessibility="no" />
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginStart="8dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_25" android:textSize="19sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_26" android:textSize="10sp" android:textColor="@color/muted" android:letterSpacing="0.12" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageButton android:layout_width="48dp" android:layout_height="48dp" android:id="@+id/btnAjustes" android:background="@drawable/bg_icon" android:padding="13dp" android:src="@drawable/ic_settings" android:contentDescription="@string/copy_27" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="20dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_hero" android:padding="22dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_28" android:textSize="10sp" android:textColor="@color/mint" android:letterSpacing="0.16" android:fontFamily="sans-serif-medium" android:id="@+id/tvConexion" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_29" android:textSize="28sp" android:textColor="@color/white" android:layout_marginTop="10dp" android:fontFamily="sans-serif-medium" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_30" android:textSize="13sp" android:textColor="@color/mint" android:layout_marginTop="7dp" android:lineSpacingExtra="3dp" android:id="@+id/tvSubtitulo" />
+                <Space android:layout_width="1dp" android:layout_height="18dp" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/copy_31" android:textSize="12sp" android:textColor="@color/white" android:layout_weight="1" android:id="@+id/tvDispositivo" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_32" android:textSize="11sp" android:textColor="@color/mint" android:id="@+id/tvActualizacion" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="24dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/copy_33" android:textSize="20sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" android:layout_weight="1" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_34" android:textSize="9sp" android:textColor="@color/muted" android:letterSpacing="0.08" android:id="@+id/tvOrigen" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:baselineAligned="false">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16dp" android:layout_marginEnd="6dp" android:layout_marginStart="0dp">
+                    <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_temperature" android:importantForAccessibility="no" />
+                    <Space android:layout_width="1dp" android:layout_height="12dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_35" android:textSize="12sp" android:textColor="@color/muted" android:minHeight="34dp" android:gravity="center_vertical" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_36" android:id="@+id/tvTemp" android:textSize="30sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_37" android:id="@+id/tvTempEstado" android:textSize="11sp" android:textColor="@color/green" android:layout_marginTop="6dp" android:minHeight="30dp" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:background="@drawable/bg_card" android:padding="16dp" android:layout_marginEnd="0dp" android:layout_marginStart="6dp">
+                    <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_drop" android:importantForAccessibility="no" />
+                    <Space android:layout_width="1dp" android:layout_height="12dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_38" android:textSize="12sp" android:textColor="@color/muted" android:minHeight="34dp" android:gravity="center_vertical" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_39" android:id="@+id/tvAire" android:textSize="30sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" android:layout_marginTop="4dp" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_40" android:id="@+id/tvAireEstado" android:textSize="11sp" android:textColor="@color/green" android:layout_marginTop="6dp" android:minHeight="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_card" android:padding="18dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_soil" android:importantForAccessibility="no" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/copy_41" android:textSize="14sp" android:textColor="@color/forest" android:layout_weight="1" android:layout_marginStart="10dp" android:fontFamily="sans-serif-medium" />
+                    <TextView android:layout_width="76dp" android:layout_height="wrap_content" android:text="@string/copy_42" android:id="@+id/tvSuelo" android:textSize="25sp" android:textColor="@color/forest" android:singleLine="true" android:gravity="end" android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+                <ProgressBar style="?android:attr/progressBarStyleHorizontal" android:layout_width="match_parent" android:layout_height="8dp" android:id="@+id/progressSuelo" android:max="100" android:progress="48" android:progressTint="@color/green" android:progressBackgroundTint="@color/sage" android:layout_marginTop="16dp" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_43" android:id="@+id/tvSueloEstado" android:textSize="12sp" android:textColor="@color/green" android:layout_marginTop="10dp" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="24dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_44" android:textSize="20sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" />
+            <Space android:layout_width="1dp" android:layout_height="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_card" android:padding="18dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:background="@drawable/bg_sage" android:padding="4dp">
+                    <com.google.android.material.button.MaterialButton android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/btnAutomatico" android:text="@string/copy_45" android:textAllCaps="false" android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/white" app:backgroundTint="@color/forest" app:cornerRadius="16dp" android:insetTop="0dp" android:insetBottom="0dp" android:layout_weight="1" />
+                    <com.google.android.material.button.MaterialButton android:layout_width="0dp" android:layout_height="wrap_content" android:id="@+id/btnManual" android:text="@string/copy_46" android:textAllCaps="false" android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/forest" app:backgroundTint="@color/sage" app:cornerRadius="16dp" android:insetTop="0dp" android:insetBottom="0dp" android:layout_weight="1" android:layout_marginStart="6dp" />
+                </LinearLayout>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_47" android:id="@+id/tvModoDescripcion" android:textSize="12sp" android:textColor="@color/muted" android:layout_marginTop="14dp" android:lineSpacingExtra="3dp" />
+                <Space android:layout_width="1dp" android:layout_height="18dp" />
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                    <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/ic_drop" android:importantForAccessibility="no" />
+                    <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:orientation="vertical" android:layout_weight="1" android:layout_marginStart="10dp">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_48" android:id="@+id/tvRiegoEstado" android:textSize="17sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" />
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_49" android:textSize="10sp" android:textColor="@color/muted" android:layout_marginTop="3dp" android:id="@+id/tvControlPendiente" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Space android:layout_width="1dp" android:layout_height="12dp" />
+                <com.google.android.material.button.MaterialButton android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:id="@+id/btnRiego" android:text="@string/copy_50" android:textAllCaps="false" android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/forest" app:backgroundTint="@color/sage" app:cornerRadius="16dp" android:insetTop="0dp" android:insetBottom="0dp" android:enabled="false" android:alpha="0.65" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="24dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/copy_51" android:id="@+id/tvAvisosTitulo" android:textSize="20sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" android:layout_weight="1" />
+                <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/ic_bell" android:importantForAccessibility="no" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="12dp" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/panelAviso" android:background="@drawable/bg_sage" android:padding="16dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_52" android:id="@+id/tvAviso" android:textSize="14sp" android:textColor="@color/forest" android:fontFamily="sans-serif-medium" />
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_53" android:id="@+id/tvAvisoDetalle" android:textSize="12sp" android:textColor="@color/muted" android:layout_marginTop="6dp" android:lineSpacingExtra="3dp" />
+            </LinearLayout>
+            <Space android:layout_width="1dp" android:layout_height="16dp" />
+            <com.google.android.material.button.MaterialButton android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:id="@+id/btnEscenario" android:text="@string/copy_54" android:textAllCaps="false" android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/forest" app:backgroundTint="@color/sage" app:cornerRadius="16dp" android:insetTop="0dp" android:insetBottom="0dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_55" android:id="@+id/tvEscenario" android:textSize="11sp" android:textColor="@color/muted" android:gravity="center" android:layout_marginTop="6dp" />
+            <Space android:layout_width="1dp" android:layout_height="18dp" />
+            <com.google.android.material.button.MaterialButton android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:id="@+id/btnSalir" android:text="@string/copy_56" android:textAllCaps="false" android:textSize="15sp" android:fontFamily="sans-serif-medium" android:textColor="@color/forest" app:backgroundTint="@color/sage" app:cornerRadius="16dp" android:insetTop="0dp" android:insetBottom="0dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copy_57" android:textSize="11sp" android:textColor="@color/muted" android:gravity="center" android:layout_marginTop="10dp" android:id="@+id/tvPie" />
+            <Space android:layout_width="1dp" android:layout_height="8dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
